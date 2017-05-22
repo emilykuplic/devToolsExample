@@ -26,7 +26,7 @@ var someWordyThing = function(){
   console.log( 'in someWordyThing' );
   // add some text to the global string
   globalString += ' (added in someWordyThing)';
-}
+  }
 
 var startMeUp = function(){
   // logging out the function name at the start of a function can be helpful
@@ -37,5 +37,5 @@ var startMeUp = function(){
   someWordyThing();
   // add some random number to the globalNumber
   globalNumber += someMathyThing();
-  showGlobal();
+  showGlobals();
 }
